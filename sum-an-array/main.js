@@ -1,8 +1,9 @@
 
-var numberArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+var numberArray = [6, 7, 8, 9, 10]
 
 var sum = numberArray.reduce(sumArray)
-console.log(sum)
+console.log(`Array = ${numberArray}`)
+console.log("Sum of array:", sum)
 
 function sumArray(total, num) {
     return total + num
