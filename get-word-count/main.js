@@ -1,5 +1,5 @@
 function getWordCount(sentence) {
-    words = 0
+    var words = 0
     for (var i = 0; i < sentence.length; i++) {
         if (sentence[i] === ' ') {
               words += 1
