@@ -1,7 +1,7 @@
 function payscaleAnalyzer(payList) {
-    var highest = Math.max.apply(null, payList)
-    var lowest = Math.min.apply(null, payList)
-    var difference = highest - lowest
+    const highest = Math.max.apply(null, payList)
+    const lowest = Math.min.apply(null, payList)
+    const difference = highest - lowest
     return difference
 }
 
